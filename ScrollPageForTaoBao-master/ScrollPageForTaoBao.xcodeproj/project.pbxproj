@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5027F2DF1C2052EE004C0CC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5027F2DE1C2052EE004C0CC3 /* main.m */; };
+		5027F2E21C2052EE004C0CC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5027F2E11C2052EE004C0CC3 /* AppDelegate.m */; };
+		5027F2EA1C2052EE004C0CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5027F2E91C2052EE004C0CC3 /* Assets.xcassets */; };
+		5027F2ED1C2052EE004C0CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5027F2EB1C2052EE004C0CC3 /* LaunchScreen.storyboard */; };
+		5027F2F81C2052EE004C0CC3 /* ScrollPageForTaoBaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5027F2F71C2052EE004C0CC3 /* ScrollPageForTaoBaoTests.m */; };
+		5027F3031C2052EE004C0CC3 /* ScrollPageForTaoBaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5027F3021C2052EE004C0CC3 /* ScrollPageForTaoBaoUITests.m */; };
+		5027F3141C20531E004C0CC3 /* QFRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5027F3121C20531E004C0CC3 /* QFRootViewController.m */; };
+		5027F3151C20531E004C0CC3 /* QFRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5027F3131C20531E004C0CC3 /* QFRootViewController.xib */; };
+		55701737C5A3BDCE7DF80FA5 /* libPods-ScrollPageForTaoBao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF31F3334890523033C55983 /* libPods-ScrollPageForTaoBao.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5027F2F41C2052EE004C0CC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5027F2D21C2052EE004C0CC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5027F2D91C2052EE004C0CC3;
+			remoteInfo = ScrollPageForTaoBao;
+		};
+		5027F2FF1C2052EE004C0CC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5027F2D21C2052EE004C0CC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5027F2D91C2052EE004C0CC3;
+			remoteInfo = ScrollPageForTaoBao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5027F2DA1C2052EE004C0CC3 /* ScrollPageForTaoBao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollPageForTaoBao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5027F2DE1C2052EE004C0CC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5027F2E01C2052EE004C0CC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5027F2E11C2052EE004C0CC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5027F2E91C2052EE004C0CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5027F2EC1C2052EE004C0CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5027F2EE1C2052EE004C0CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5027F2F31C2052EE004C0CC3 /* ScrollPageForTaoBaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollPageForTaoBaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5027F2F71C2052EE004C0CC3 /* ScrollPageForTaoBaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollPageForTaoBaoTests.m; sourceTree = "<group>"; };
+		5027F2F91C2052EE004C0CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5027F2FE1C2052EE004C0CC3 /* ScrollPageForTaoBaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollPageForTaoBaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5027F3021C2052EE004C0CC3 /* ScrollPageForTaoBaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollPageForTaoBaoUITests.m; sourceTree = "<group>"; };
+		5027F3041C2052EE004C0CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5027F3111C20531E004C0CC3 /* QFRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFRootViewController.h; sourceTree = "<group>"; };
+		5027F3121C20531E004C0CC3 /* QFRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFRootViewController.m; sourceTree = "<group>"; };
+		5027F3131C20531E004C0CC3 /* QFRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QFRootViewController.xib; sourceTree = "<group>"; };
+		89CBA1FBC74C4E423B45DA06 /* Pods-ScrollPageForTaoBao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollPageForTaoBao.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollPageForTaoBao/Pods-ScrollPageForTaoBao.release.xcconfig"; sourceTree = "<group>"; };
+		97D45DCA3E5767C206682DAF /* Pods-ScrollPageForTaoBao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollPageForTaoBao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollPageForTaoBao/Pods-ScrollPageForTaoBao.debug.xcconfig"; sourceTree = "<group>"; };
+		AF31F3334890523033C55983 /* libPods-ScrollPageForTaoBao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollPageForTaoBao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5027F2D71C2052EE004C0CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55701737C5A3BDCE7DF80FA5 /* libPods-ScrollPageForTaoBao.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5027F2F01C2052EE004C0CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5027F2FB1C2052EE004C0CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5027F2D11C2052EE004C0CC3 = {
+			isa = PBXGroup;
+			children = (
+				5027F3101C20530A004C0CC3 /* VC */,
+				5027F2DC1C2052EE004C0CC3 /* ScrollPageForTaoBao */,
+				5027F2F61C2052EE004C0CC3 /* ScrollPageForTaoBaoTests */,
+				5027F3011C2052EE004C0CC3 /* ScrollPageForTaoBaoUITests */,
+				5027F2DB1C2052EE004C0CC3 /* Products */,
+				7F2A62F95677E10547618FD1 /* Pods */,
+				65A895C69A5CB2CDF763F823 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5027F2DB1C2052EE004C0CC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5027F2DA1C2052EE004C0CC3 /* ScrollPageForTaoBao.app */,
+				5027F2F31C2052EE004C0CC3 /* ScrollPageForTaoBaoTests.xctest */,
+				5027F2FE1C2052EE004C0CC3 /* ScrollPageForTaoBaoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5027F2DC1C2052EE004C0CC3 /* ScrollPageForTaoBao */ = {
+			isa = PBXGroup;
+			children = (
+				5027F2E01C2052EE004C0CC3 /* AppDelegate.h */,
+				5027F2E11C2052EE004C0CC3 /* AppDelegate.m */,
+				5027F2E91C2052EE004C0CC3 /* Assets.xcassets */,
+				5027F2EB1C2052EE004C0CC3 /* LaunchScreen.storyboard */,
+				5027F2EE1C2052EE004C0CC3 /* Info.plist */,
+				5027F2DD1C2052EE004C0CC3 /* Supporting Files */,
+			);
+			path = ScrollPageForTaoBao;
+			sourceTree = "<group>";
+		};
+		5027F2DD1C2052EE004C0CC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5027F2DE1C2052EE004C0CC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5027F2F61C2052EE004C0CC3 /* ScrollPageForTaoBaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5027F2F71C2052EE004C0CC3 /* ScrollPageForTaoBaoTests.m */,
+				5027F2F91C2052EE004C0CC3 /* Info.plist */,
+			);
+			path = ScrollPageForTaoBaoTests;
+			sourceTree = "<group>";
+		};
+		5027F3011C2052EE004C0CC3 /* ScrollPageForTaoBaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5027F3021C2052EE004C0CC3 /* ScrollPageForTaoBaoUITests.m */,
+				5027F3041C2052EE004C0CC3 /* Info.plist */,
+			);
+			path = ScrollPageForTaoBaoUITests;
+			sourceTree = "<group>";
+		};
+		5027F3101C20530A004C0CC3 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				5027F3111C20531E004C0CC3 /* QFRootViewController.h */,
+				5027F3121C20531E004C0CC3 /* QFRootViewController.m */,
+				5027F3131C20531E004C0CC3 /* QFRootViewController.xib */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		65A895C69A5CB2CDF763F823 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF31F3334890523033C55983 /* libPods-ScrollPageForTaoBao.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F2A62F95677E10547618FD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97D45DCA3E5767C206682DAF /* Pods-ScrollPageForTaoBao.debug.xcconfig */,
+				89CBA1FBC74C4E423B45DA06 /* Pods-ScrollPageForTaoBao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5027F2D91C2052EE004C0CC3 /* ScrollPageForTaoBao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5027F3071C2052EE004C0CC3 /* Build configuration list for PBXNativeTarget "ScrollPageForTaoBao" */;
+			buildPhases = (
+				67AB8D3BA1CD1548A4BB0DCF /* Check Pods Manifest.lock */,
+				5027F2D61C2052EE004C0CC3 /* Sources */,
+				5027F2D71C2052EE004C0CC3 /* Frameworks */,
+				5027F2D81C2052EE004C0CC3 /* Resources */,
+				516E98227CA1B9B8200022F8 /* Embed Pods Frameworks */,
+				1325774DBB12C2E80DD018BA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollPageForTaoBao;
+			productName = ScrollPageForTaoBao;
+			productReference = 5027F2DA1C2052EE004C0CC3 /* ScrollPageForTaoBao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5027F2F21C2052EE004C0CC3 /* ScrollPageForTaoBaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5027F30A1C2052EE004C0CC3 /* Build configuration list for PBXNativeTarget "ScrollPageForTaoBaoTests" */;
+			buildPhases = (
+				5027F2EF1C2052EE004C0CC3 /* Sources */,
+				5027F2F01C2052EE004C0CC3 /* Frameworks */,
+				5027F2F11C2052EE004C0CC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5027F2F51C2052EE004C0CC3 /* PBXTargetDependency */,
+			);
+			name = ScrollPageForTaoBaoTests;
+			productName = ScrollPageForTaoBaoTests;
+			productReference = 5027F2F31C2052EE004C0CC3 /* ScrollPageForTaoBaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5027F2FD1C2052EE004C0CC3 /* ScrollPageForTaoBaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5027F30D1C2052EE004C0CC3 /* Build configuration list for PBXNativeTarget "ScrollPageForTaoBaoUITests" */;
+			buildPhases = (
+				5027F2FA1C2052EE004C0CC3 /* Sources */,
+				5027F2FB1C2052EE004C0CC3 /* Frameworks */,
+				5027F2FC1C2052EE004C0CC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5027F3001C2052EE004C0CC3 /* PBXTargetDependency */,
+			);
+			name = ScrollPageForTaoBaoUITests;
+			productName = ScrollPageForTaoBaoUITests;
+			productReference = 5027F2FE1C2052EE004C0CC3 /* ScrollPageForTaoBaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5027F2D21C2052EE004C0CC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QF;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Mr.Yao;
+				TargetAttributes = {
+					5027F2D91C2052EE004C0CC3 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					5027F2F21C2052EE004C0CC3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 5027F2D91C2052EE004C0CC3;
+					};
+					5027F2FD1C2052EE004C0CC3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 5027F2D91C2052EE004C0CC3;
+					};
+				};
+			};
+			buildConfigurationList = 5027F2D51C2052EE004C0CC3 /* Build configuration list for PBXProject "ScrollPageForTaoBao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5027F2D11C2052EE004C0CC3;
+			productRefGroup = 5027F2DB1C2052EE004C0CC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5027F2D91C2052EE004C0CC3 /* ScrollPageForTaoBao */,
+				5027F2F21C2052EE004C0CC3 /* ScrollPageForTaoBaoTests */,
+				5027F2FD1C2052EE004C0CC3 /* ScrollPageForTaoBaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5027F2D81C2052EE004C0CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5027F3151C20531E004C0CC3 /* QFRootViewController.xib in Resources */,
+				5027F2ED1C2052EE004C0CC3 /* LaunchScreen.storyboard in Resources */,
+				5027F2EA1C2052EE004C0CC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5027F2F11C2052EE004C0CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5027F2FC1C2052EE004C0CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1325774DBB12C2E80DD018BA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollPageForTaoBao/Pods-ScrollPageForTaoBao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		516E98227CA1B9B8200022F8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollPageForTaoBao/Pods-ScrollPageForTaoBao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67AB8D3BA1CD1548A4BB0DCF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5027F2D61C2052EE004C0CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5027F2E21C2052EE004C0CC3 /* AppDelegate.m in Sources */,
+				5027F2DF1C2052EE004C0CC3 /* main.m in Sources */,
+				5027F3141C20531E004C0CC3 /* QFRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5027F2EF1C2052EE004C0CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5027F2F81C2052EE004C0CC3 /* ScrollPageForTaoBaoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5027F2FA1C2052EE004C0CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5027F3031C2052EE004C0CC3 /* ScrollPageForTaoBaoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5027F2F51C2052EE004C0CC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5027F2D91C2052EE004C0CC3 /* ScrollPageForTaoBao */;
+			targetProxy = 5027F2F41C2052EE004C0CC3 /* PBXContainerItemProxy */;
+		};
+		5027F3001C2052EE004C0CC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5027F2D91C2052EE004C0CC3 /* ScrollPageForTaoBao */;
+			targetProxy = 5027F2FF1C2052EE004C0CC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5027F2EB1C2052EE004C0CC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5027F2EC1C2052EE004C0CC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5027F3051C2052EE004C0CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5027F3061C2052EE004C0CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5027F3081C2052EE004C0CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D45DCA3E5767C206682DAF /* Pods-ScrollPageForTaoBao.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrollPageForTaoBao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.ScrollPageForTaoBao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5027F3091C2052EE004C0CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89CBA1FBC74C4E423B45DA06 /* Pods-ScrollPageForTaoBao.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrollPageForTaoBao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.ScrollPageForTaoBao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5027F30B1C2052EE004C0CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScrollPageForTaoBaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.ScrollPageForTaoBaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollPageForTaoBao.app/ScrollPageForTaoBao";
+			};
+			name = Debug;
+		};
+		5027F30C1C2052EE004C0CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScrollPageForTaoBaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.ScrollPageForTaoBaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollPageForTaoBao.app/ScrollPageForTaoBao";
+			};
+			name = Release;
+		};
+		5027F30E1C2052EE004C0CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScrollPageForTaoBaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.ScrollPageForTaoBaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScrollPageForTaoBao;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5027F30F1C2052EE004C0CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScrollPageForTaoBaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xxx.ScrollPageForTaoBaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScrollPageForTaoBao;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5027F2D51C2052EE004C0CC3 /* Build configuration list for PBXProject "ScrollPageForTaoBao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5027F3051C2052EE004C0CC3 /* Debug */,
+				5027F3061C2052EE004C0CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5027F3071C2052EE004C0CC3 /* Build configuration list for PBXNativeTarget "ScrollPageForTaoBao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5027F3081C2052EE004C0CC3 /* Debug */,
+				5027F3091C2052EE004C0CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5027F30A1C2052EE004C0CC3 /* Build configuration list for PBXNativeTarget "ScrollPageForTaoBaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5027F30B1C2052EE004C0CC3 /* Debug */,
+				5027F30C1C2052EE004C0CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5027F30D1C2052EE004C0CC3 /* Build configuration list for PBXNativeTarget "ScrollPageForTaoBaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5027F30E1C2052EE004C0CC3 /* Debug */,
+				5027F30F1C2052EE004C0CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5027F2D21C2052EE004C0CC3 /* Project object */;
+}
